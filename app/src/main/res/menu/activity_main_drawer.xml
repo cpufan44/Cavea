@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/films"
+            android:title="@string/menu_films" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/tickets"
+            android:title="@string/menu_tickets" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/bar"
+            android:title="@string/menu_bar" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@mipmap/login"
+            android:title="@string/menu_login" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/settings"
+                android:title="@string/menu_settings" />
+        </menu>
+    </item>
+
+</menu>
